@@ -4,6 +4,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import portrait from "../assets/portrait.jpg";
 import { Image } from "astro:assets";
 const url = Astro.url.pathname;
+import SharedScripts from "../components/SharedScripts.astro";
 ---
 
 <!doctype html>
@@ -93,5 +94,6 @@ const url = Astro.url.pathname;
         <Image src={portrait} alt="Kerim Hudson Portrait" class="max-w-lg" />
       </div>
     </main>
+    <SharedScripts />
   </body>
 </html>

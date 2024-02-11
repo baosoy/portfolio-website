@@ -42,8 +42,3 @@ const { title, description, image = "/og.jpg" } = Astro.props;
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
 <ViewTransitions />
-<script src="https://cdn.jsdelivr.net/npm/@mux/mux-player" defer></script>
-<script
-  src="https://cdn.usefathom.com/script.js"
-  data-site={import.meta.env.PUBLIC_FATHOM_ANALYTICS_ID}
-  defer></script>

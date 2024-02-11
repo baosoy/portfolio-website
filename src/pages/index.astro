@@ -6,6 +6,7 @@ import { getCollection } from "astro:content";
 import Sidebar from "../components/Sidebar.astro";
 import ProjectSlide from "../components/projects/ProjectSlide";
 const projects = await getCollection("projects");
+import SharedScripts from "../components/SharedScripts.astro";
 ---
 
 <!doctype html>
@@ -21,5 +22,6 @@ const projects = await getCollection("projects");
         <ProjectSlide projects={projects} client:load />
       </div>
     </main>
+    <SharedScripts />
   </body>
 </html>

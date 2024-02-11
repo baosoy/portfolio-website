@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 
 const projects = await getCollection("projects");
 const project = Astro.props;
-
+import SharedScripts from "../../components/SharedScripts.astro";
 const { Content } = await project.render();
 ---
 
@@ -68,5 +68,6 @@ const { Content } = await project.render();
         </div>
       </div>
     </main>
+    <SharedScripts />
   </body>
 </html>

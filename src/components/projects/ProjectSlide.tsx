@@ -7,12 +7,16 @@ import { useStore } from "@nanostores/preact";
 import { $project } from "../../stores/projects";
 
 const ProjectSlide = ({ projects }: Props) => {
-  console.log(projects);
   const $p = useStore($project);
 
   return (
-    <>
-      <div class="mt-8 relative mx-auto xl:max-w-[50vw] w-full">
+    <div
+      class={[
+        "transition-colors duration-500 pt-8 w-full h-full",
+        $p ? "bg-transparent" : "bg-yellow-light",
+      ].join(" ")}
+    >
+      <div class="pt-8 relative mx-auto xl:max-w-[50vw] w-full">
         {projects.map((project) => (
           <div
             id={project.id}
@@ -43,7 +47,7 @@ const ProjectSlide = ({ projects }: Props) => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

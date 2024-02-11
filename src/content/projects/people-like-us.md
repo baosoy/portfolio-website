@@ -5,7 +5,7 @@ url: "https://paygap.plu.org.uk/"
 order: 5
 pubDate: "2024-02-11"
 description: "Companion was asked by People Like Us to create a website to help raise awareness and signings of their petition for mandatory reporting of the ethnicity pay gap. They wanted an interactive website which would allow people to anonymously report their stories, whilst encouraging people to sign the petition."
-heroImage: "/assets/projects/people-like-us/screenshot_1.png"
+heroImage: "../../assets/projects/people-like-us/screenshot_1.png"
 backgroundColor: "#FF875F"
 ---
 
@@ -17,7 +17,12 @@ Wanting to allow people to upload their stories without having to add any person
 
 As these stories had no other information, we opted for using interesting visual backgrounds - a mixture of shapes and colours - to make the stories visually unique.
 
-<video src="/assets/projects/people-like-us/video.mp4" autoplay muted loop></video>
+<div>
+<mux-player
+playback-id="a400fJDYaaV7xWgXPByJdiirEbTHMI4BoRQ4bo02m4vgU"
+metadata-video-title="Example of the moving anonymous stories"
+accent-color="#FF0000"
+autoplay muted loop> </mux-player></div>
 
 ## Petition Data
 

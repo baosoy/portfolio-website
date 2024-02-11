@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import BaseHead from "../../components/BaseHead.astro";
 import Sidebar from "../../components/Sidebar.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
-
+import { Image, getImage } from "astro:assets";
 export async function getStaticPaths() {
   const projects = await getCollection("projects");
   return projects.map((project) => ({
@@ -14,6 +14,7 @@ export async function getStaticPaths() {
 
 const projects = await getCollection("projects");
 const project = Astro.props;
+
 const { Content } = await project.render();
 ---
 
@@ -51,15 +52,16 @@ const { Content } = await project.render();
           <p>{project.data.description}</p>
           {
             project.data.heroVideo ? (
-              <video
-                class="mb-8"
-                src={project.data.heroVideo}
-                autoplay
+              <mux-player
+                playback-id={project.data.heroVideo}
+                metadata-video-title={project.data.title}
+                allow="fullscreen"
                 muted
+                autoplay
                 loop
               />
             ) : (
-              <img src={project.data.heroImage} alt={project.data.title} />
+              <Image src={project.data.heroImage} alt={project.data.title} />
             )
           }
           <Content />

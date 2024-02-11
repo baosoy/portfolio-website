@@ -5,8 +5,8 @@ url: "https://uncrowd.uk/"
 order: 6
 pubDate: "2024-02-11"
 description: "Uncrowd is a customer experience observation and comparing platform. Companion was commissioned to design and build them a playful website to match their brand, including playful illustrations and animations."
-heroImage: "/assets/projects/uncrowd/screenshot_1.png"
-heroVideo: "/assets/projects/uncrowd/video.mp4"
+heroImage: "../../assets/projects/uncrowd/screenshot_1.png"
+heroVideo: "QAF7F54Pd89cDUeLJRBMjy9qVtb8vTn4BKH69E7yBus"
 backgroundColor: "#FAD400"
 ---
 
@@ -20,8 +20,6 @@ With an illustrative heavy website, the brand system required a flexibilty to up
 
 Rather than building out a website that has prescriptive pages, the whole of the Uncrowd Website is built using a series of modular blocks, allowing them to pick and choose what content is displayed where, and unlimited options for generating more pages.
 
-![](/assets/projects/uncrowd/screenshot_2.png)
+![Moving SVGs example](../../assets/projects/uncrowd/screenshot_2.png)
 
-<video src="/assets/projects/uncrowd/video2.mp4" autoplay muted loop></video>
-
-![](/assets/projects/uncrowd/screenshot_3.png)
+![Content example](../../assets/projects/uncrowd/screenshot_3.png)

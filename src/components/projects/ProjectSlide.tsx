@@ -7,6 +7,7 @@ import { useStore } from "@nanostores/preact";
 import { $project } from "../../stores/projects";
 
 const ProjectSlide = ({ projects }: Props) => {
+  console.log(projects);
   const $p = useStore($project);
 
   return (
@@ -21,9 +22,10 @@ const ProjectSlide = ({ projects }: Props) => {
         >
           <img
             class="w-full"
-            src={project.data.heroImage}
+            src={project.data.heroImage.src}
             alt={project.data.title}
           />
+
           <div class="pt-4">
             <div class="flex justify-between items-center pb-8">
               <h2>
@@ -35,6 +37,7 @@ const ProjectSlide = ({ projects }: Props) => {
                   </span>
                 </>
               </h2>
+              Slide goes here.
             </div>
           </div>
         </div>

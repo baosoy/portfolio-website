@@ -1,7 +1,8 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
-import ImageOverlay from "../components/ImageOverlay";
+import portrait from "../assets/portrait.jpg";
+import { Image } from "astro:assets";
 const url = Astro.url.pathname;
 ---
 
@@ -82,12 +83,7 @@ const url = Astro.url.pathname;
                     target="_blank"
                     href="https://read.cv/kerimhudson">Read.cv</a
                   >
-                  <a
-                    class="opacity-50 hover:opacity-100"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/kerim-hudson-b5a9372a6/"
-                    >LinkedIn</a
-                  >
+
                   <a
                     class="opacity-50 hover:opacity-100"
                     target="_blank"
@@ -109,7 +105,7 @@ const url = Astro.url.pathname;
       </div>
 
       <div class="flex-1 flex items-center justify-center">
-        <ImageOverlay client:load />
+        <Image src={portrait} alt="Kerim Hudson Portrait" class="max-w-lg" />
       </div>
     </main>
   </body>

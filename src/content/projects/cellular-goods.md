@@ -5,8 +5,8 @@ url: "https://cellular-goods.com/"
 order: 11
 pubDate: "2024-02-11"
 description: "Cellular Goods was the first approved CBD skincare brand in the UK. When I joined Companion, the Cellular Goods website was built, however there was ongoing maintenance and improvement works carried out throughout my time there, on both their CMS and store website."
-heroImage: "/assets/projects/cellular-goods/screenshot_1.png"
-heroVideo: "/assets/projects/cellular-goods/video.mp4"
+heroImage: "../../assets/projects/cellular-goods/screenshot_1.png"
+heroVideo: "vL9UFWaZPQfgw5pa02YHixmVxMHACCdqb56xGk7VANoA"
 backgroundColor: "#F7F7F7"
 ---
 
@@ -16,7 +16,7 @@ The Cellular Goods [website](https://cellular-goods.com/) was built as a headles
 
 As the store utilised a Headless Shopify setup, it was difficult to find any existing shopify plugins which provided a quick and efficient way of applying conditional discounts in the cart. In order to deal with this, we decided to build the conditional logic system into the CMS, utilising promo codes generated within Shopify. The system provided a really easy way for the team to build advanced custom logic for automatic discounts.
 
-![Cart Screenshot](/assets/projects/cellular-goods/screenshot_2.png)
+![Cart Screenshot](../../assets/projects/cellular-goods/screenshot_2.png)
 
 ## Internationalisation
 
@@ -26,5 +26,5 @@ Cellular Goods wanted to expand into the US market, and as part of that needed t
 
 There were often complaints of slow page loads. We did spend some time debugging these, and found many re-renders were occuring on page changes due to bad dependency handling. We managed to shave some page renders from several seconds down to under a second.
 
-![Cellular Goods Screenshot](/assets/projects/cellular-goods/screenshot_1.png)
-![Cellular Goods Screenshot](/assets/projects/cellular-goods/screenshot_3.png)
+![Cellular Goods Screenshot](../../assets/projects/cellular-goods/screenshot_1.png)
+![Cellular Goods Screenshot](../../assets/projects/cellular-goods/screenshot_3.png)

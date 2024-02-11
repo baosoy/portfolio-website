@@ -5,7 +5,7 @@ source: "Freelance"
 order: 1
 pubDate: "2024-02-11"
 description: "NatureBound is an observability platform allowing farms and their corporate clients to manage their environmental impact and health. Working with Barney, their technical lead, we cleaned up the design and build out the application for their beta release, building upon their prototype."
-heroImage: "/assets/projects/naturebound/screenshot_1.png"
+heroImage: "../../assets/projects/naturebound/screenshot_1.png"
 backgroundColor: "#F6FFE3"
 ---
 
@@ -21,4 +21,4 @@ We also cache data where possible, to minimise requests between the server and c
 
 As the primary clients are farmers, we wanted to ensure accessiblity standards were met. We utilised large font sizes, high contrasts, and included a dark mode to allow people to choose whatever is most comfortable for them.
 
-![](/assets/projects/naturebound/screenshot_2.png)
+![](../../assets/projects/naturebound/screenshot_2.png)

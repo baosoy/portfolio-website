@@ -1,21 +1,4 @@
 @import url("https://use.typekit.net/lvn4wdp.css");
-@font-face {
-  font-family: "Lyon Text";
-  src: url("/assets/fonts/LyonText-Regular.woff2") format("woff2"),
-    url("/assets/fonts/LyonText-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Lyon Text";
-  src: url("/assets/fonts/LyonText-RegularItalic.woff2") format("woff2"),
-    url("/assets/fonts/LyonText-RegularItalic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
 
 @tailwind base;
 @tailwind components;

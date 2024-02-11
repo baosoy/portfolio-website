@@ -5,7 +5,7 @@ order: 0
 pubDate: "2024-02-11"
 url: "https://sequencer.kerimhudson.com"
 description: "Sequencer is a conceptual project exploring the idea of connecting the real-living world with the mechanics of a game. Utilising an air quality monitor, the game mechanics become more and more difficult, the worse the air quality is."
-heroImage: "/assets/projects/sequencer/screenshot_1.png"
+heroImage: "../../assets/projects/sequencer/screenshot_1.png"
 ---
 
 With the growth in VR headsets and immersive worlds, I was curious to explore if there was a possibility to connect the real-world environment to a game.

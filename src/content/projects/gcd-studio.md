@@ -5,8 +5,8 @@ url: "https://gcd.studio/"
 order: 9
 pubDate: "2024-02-11"
 description: "GCD Studio is a showcase platform for students of the Graphic Design department at Central St Martins. The platform allows students to log in and create their our projects and manage them individually, whilst exploring the works of their fellow classmates and alumni."
-heroImage: "/assets/projects/gcd-studio/screenshot_1.png"
-heroVideo: "/assets/projects/gcd-studio/video.mp4"
+heroImage: "../../assets/projects/gcd-studio/screenshot_1.png"
+heroVideo: "00NEB4WEkHFhlJ3crIP01k48kU9TrOwCmIo4P8AHAs2fU"
 backgroundColor: "#F7F7F7"
 ---
 
@@ -20,4 +20,4 @@ The backend utilises a building-block nature of components to allow students and
 
 The large buttons, rounded edges and shadows, and disappearing text are playful elements to the website that provide a strong consistent branding alongside the students' work.
 
-![](/assets/projects/gcd-studio/screenshot_2.png)
+![](../../assets/projects/gcd-studio/screenshot_2.png)

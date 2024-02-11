@@ -5,8 +5,8 @@ url: "https://hana-hudson.com"
 order: 10
 pubDate: "2024-02-11"
 description: "Hana Hudson is a biodesigner, researching textile and material lifecycles. Wanting to build an online presence, she approached me to build a portfolio website to capture the various elements of her practise into a single website."
-heroImage: "/assets/projects/hana-hudson/screenshot_1.png"
-heroVideo: "/assets/projects/hana-hudson/video.mp4"
+heroImage: "../../assets/projects/hana-hudson/screenshot_1.png"
+heroVideo: "kSIocdAjdFyuylcxhFDzBv602dhcNg7eiftkhNX01Tmsw"
 backgroundColor: "#c5c5bb"
 ---
 
@@ -14,8 +14,8 @@ The website is custom built using [Next.js](https://nextjs.org/) and [TailwindCS
 
 The build includes interesting explorations of using sliders and the buttons to match the aesthetic and philosophy of the work highlighted in the project.
 
-![Another screenshot](/assets/projects/hana-hudson/screenshot_2.png)
+![Another screenshot](../../assets/projects/hana-hudson/screenshot_2.png)
 
-![Another screenshot](/assets/projects/hana-hudson/screenshot_3.png)
+![Another screenshot](../../assets/projects/hana-hudson/screenshot_3.png)
 
-![Another screenshot](/assets/projects/hana-hudson/screenshot_4.png)
+![Another screenshot](../../assets/projects/hana-hudson/screenshot_4.png)

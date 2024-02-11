@@ -15,17 +15,18 @@ import { defineCollection, z } from "astro:content";
 
 const projects = defineCollection({
   type: "content",
-  schema: z.object({
-    title: z.string(),
-    source: z.string(),
-    url: z.string(),
-    pubDate: z.coerce.date(),
-    heroImage: z.string().optional(),
-    heroVideo: z.string().optional(),
-    description: z.string().optional(),
-    order: z.number().optional().default(0),
-    backgroundColor: z.string().optional(),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      source: z.string(),
+      url: z.string(),
+      pubDate: z.coerce.date(),
+      heroImage: image(),
+      heroVideo: z.string().optional(),
+      description: z.string().optional(),
+      order: z.number().optional().default(0),
+      backgroundColor: z.string().optional(),
+    }),
 });
 
 export const collections = { projects };

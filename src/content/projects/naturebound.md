@@ -3,7 +3,7 @@ title: "NatureBound"
 url: "https://naturebound.ai"
 source: "Freelance"
 order: 1
-pubDate: "Feb 11 2024"
+pubDate: "2024-02-11"
 description: "NatureBound is an observability platform allowing farms and their corporate clients to manage their environmental impact and health. Working with Barney, their technical lead, we cleaned up the design and build out the application for their beta release, building upon their prototype."
 heroImage: "/assets/projects/naturebound/screenshot_1.png"
 backgroundColor: "#F6FFE3"

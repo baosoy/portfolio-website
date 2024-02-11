@@ -3,7 +3,7 @@ title: "People Like Us"
 source: "Companion"
 url: "https://paygap.plu.org.uk/"
 order: 5
-pubDate: "Feb 11 2024"
+pubDate: "2024-02-11"
 description: "Companion was asked by People Like Us to create a website to help raise awareness and signings of their petition for mandatory reporting of the ethnicity pay gap. They wanted an interactive website which would allow people to anonymously report their stories, whilst encouraging people to sign the petition."
 heroImage: "/assets/projects/people-like-us/screenshot_1.png"
 backgroundColor: "#FF875F"

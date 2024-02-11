@@ -3,7 +3,7 @@ title: "Uncrowd"
 source: "Companion"
 url: "https://uncrowd.uk/"
 order: 6
-pubDate: "Feb 11 2024"
+pubDate: "2024-02-11"
 description: "Uncrowd is a customer experience observation and comparing platform. Companion was commissioned to design and build them a playful website to match their brand, including playful illustrations and animations."
 heroImage: "/assets/projects/uncrowd/screenshot_1.png"
 heroVideo: "/assets/projects/uncrowd/video.mp4"

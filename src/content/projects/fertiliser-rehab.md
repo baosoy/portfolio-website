@@ -3,7 +3,7 @@ title: "Fertiliser Rehab"
 source: "Freelance"
 url: "https://fertiliser.rehab/"
 order: 7
-pubDate: "Feb 11 2024"
+pubDate: "2024-02-11"
 description: "Fertiliser Rehab was a fictitious service exploring post-peak phosphorus times coming in the future, part of the Inspiration Forum LAB organized by Ji.hlava. A website was designed to complement the physical exhibition and explore in more depth the concepts and ideas on display."
 heroImage: "/assets/projects/fertiliser-rehab/screenshot_1.png"
 heroVideo: "/assets/projects/fertiliser-rehab/video.mp4"

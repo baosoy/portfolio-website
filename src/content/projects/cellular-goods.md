@@ -3,7 +3,7 @@ title: "Cellular Goods"
 source: "Companion"
 url: "https://cellular-goods.com/"
 order: 11
-pubDate: "Feb 11 2024"
+pubDate: "2024-02-11"
 description: "Cellular Goods was the first approved CBD skincare brand in the UK. When I joined Companion, the Cellular Goods website was built, however there was ongoing maintenance and improvement works carried out throughout my time there, on both their CMS and store website."
 heroImage: "/assets/projects/cellular-goods/screenshot_1.png"
 heroVideo: "/assets/projects/cellular-goods/video.mp4"

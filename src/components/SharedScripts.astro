@@ -2,8 +2,17 @@
 
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/@mux/mux-player" defer></script>
+<script is:inline src="https://cdn.jsdelivr.net/npm/@mux/mux-player" defer
+></script>
 <script
+  is:inline
   src="https://cdn.usefathom.com/script.js"
   data-site={import.meta.env.PUBLIC_FATHOM_ANALYTICS_ID}
   defer></script>
+<script>
+  document.addEventListener("astro:page-load", () => {
+    if (window?.fathom) {
+      window.fathom.trackPageview();
+    }
+  });
+</script>

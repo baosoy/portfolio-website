@@ -3,6 +3,7 @@ title: "GCD Studio"
 source: "Midnight Agency"
 url: "https://gcd.studio/"
 order: 9
+pubDate: "Feb 11 2024"
 description: "GCD Studio is a showcase platform for students of the Graphic Design department at Central St Martins. The platform allows students to log in and create their our projects and manage them individually, whilst exploring the works of their fellow classmates and alumni."
 heroImage: "/assets/projects/gcd-studio/screenshot_1.png"
 heroVideo: "/assets/projects/gcd-studio/video.mp4"

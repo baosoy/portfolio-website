@@ -7,7 +7,7 @@ import { defineCollection, z } from "astro:content";
 //     title: z.string(),
 //     description: z.string(),
 //     // Transform string to Date object
-//     pubDate: z.coerce.date(),
+// pubDate: z.coerce.date(),
 //     updatedDate: z.coerce.date().optional(),
 //     heroImage: z.string().optional(),
 //   }),
@@ -19,6 +19,7 @@ const projects = defineCollection({
     title: z.string(),
     source: z.string(),
     url: z.string(),
+    pubDate: z.coerce.date(),
     heroImage: z.string().optional(),
     heroVideo: z.string().optional(),
     description: z.string().optional(),

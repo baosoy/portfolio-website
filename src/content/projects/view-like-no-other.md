@@ -3,6 +3,7 @@ title: "View Like No Other"
 source: "Midnight Agency"
 url: "https://www.viewlikenoother.com/"
 order: 12
+pubDate: "Feb 11 2024"
 description: "Looking to rent out their office premises, the management of One Canada Square asked Midnight Studio to create an interactive 3D model of the tower to explore the available space."
 heroImage: "/assets/projects/view-like-no-other/screenshot_1.png"
 heroVideo: "/assets/projects/view-like-no-other/video.mp4"

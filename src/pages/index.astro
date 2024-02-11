@@ -18,7 +18,7 @@ import SharedScripts from "../components/SharedScripts.astro";
     <main class="flex flex-col md:flex-row">
       <Sidebar projects={projects} />
 
-      <div class="md:flex-1">
+      <div class="hidden md:block md:flex-1">
         <ProjectSlide projects={projects} client:load />
       </div>
     </main>

@@ -11,7 +11,9 @@
   defer></script>
 <script>
   document.addEventListener("astro:page-load", () => {
+    // @ts-ignore
     if (window?.fathom) {
+      // @ts-ignore
       window.fathom.trackPageview();
     }
   });

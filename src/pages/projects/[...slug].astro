@@ -24,7 +24,7 @@ const { Content } = await project.render();
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <body>
-    <main class="flex">
+    <main class="flex flex-col md:flex-row">
       <Sidebar
         activeId={project.id}
         backgroundColor={project.data.backgroundColor}

@@ -14,10 +14,10 @@ const projects = await getCollection("projects");
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <body>
-    <main class="flex">
+    <main class="flex flex-col md:flex-row">
       <Sidebar projects={projects} />
 
-      <div class="flex-1">
+      <div class="md:flex-1">
         <ProjectSlide projects={projects} client:load />
       </div>
     </main>

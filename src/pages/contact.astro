@@ -12,9 +12,9 @@ const url = Astro.url.pathname;
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <body>
-    <main class="flex">
-      <div class="bg-yellow-light max-w-lg">
-        <div class="sticky top-0 h-screen px-8 py-8">
+    <main class="flex flex-col md:flex-row">
+      <div class="bg-yellow-light md:max-w-lg">
+        <div class="sticky top-0 md:h-screen px-8 py-8">
           <div class="flex flex-col h-full">
             <header class="flex justify-between items-center mb-8">
               <a href="/">
@@ -31,15 +31,7 @@ const url = Astro.url.pathname;
                       >Work</a
                     >
                   </li>
-                  <li>
-                    <a
-                      href="/writing"
-                      class={url === "/writing"
-                        ? "px-2 py-1.5 leading-none inline-block"
-                        : "px-2 py-1.5 leading-none inline-block bg-white rounded-full hover:bg-opacity-75"}
-                      >Writing</a
-                    >
-                  </li>
+
                   <li>
                     <a
                       href="/contact"
@@ -92,13 +84,6 @@ const url = Astro.url.pathname;
                   >
                 </div>
               </div>
-            </div>
-
-            <div class="flex-1"></div>
-            <div>
-              <p class="italic">
-                Open to freelance and full-time opportunities.
-              </p>
             </div>
           </div>
         </div>

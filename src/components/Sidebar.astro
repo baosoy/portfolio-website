@@ -1,0 +1,71 @@
+---
+import type { CollectionEntry } from "astro:content";
+import ProjectsList from "./projects/ProjectsList";
+interface Props {
+  projects: CollectionEntry<"projects">[];
+  backgroundColor?: string;
+  activeId?: string;
+}
+const { projects, backgroundColor, activeId } = Astro.props;
+const url = Astro.url.pathname;
+---
+
+<div style={{ backgroundColor }} class="bg-yellow-light max-w-lg">
+  <div class="sticky top-0 h-screen px-8 py-8">
+    <div class="flex flex-col h-full">
+      <header class="flex justify-between items-center mb-8">
+        <a href="/">
+          <h1>Kerim Hudson</h1>
+        </a>
+        <nav>
+          <ul class="flex text-sm gap-2 items-center">
+            <li>
+              <a
+                href="/"
+                class={url === "/"
+                  ? "px-2 py-1.5 leading-none inline-block"
+                  : "px-2 py-1.5 leading-none inline-block bg-white rounded-full hover:bg-opacity-75"}
+                >Work</a
+              >
+            </li>
+            <!-- <li>
+              <a
+                href="/writing"
+                class={url === "/writing"
+                  ? "px-2 py-1.5 leading-none inline-block"
+                  : "px-2 py-1.5 leading-none inline-block bg-white rounded-full hover:bg-opacity-75"}
+                >Writing</a
+              >
+            </li> -->
+            <li>
+              <a
+                href="/contact"
+                class={url === "/contact"
+                  ? "px-2 py-1.5 leading-none inline-block"
+                  : "px-2 py-1.5 leading-none inline-block bg-white rounded-full hover:bg-opacity-75"}
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="max-w-xl mb-8">
+        <p>
+          A London-based designer and full-stack web developer, with a keen
+          interest in digital sustainability and ethics, and the use of design
+          and technology in social innovation. <a
+            class="underline italic"
+            href="/contact">Read more</a
+          >
+        </p>
+      </div>
+
+      <div class="flex-1">
+        <ProjectsList activeId={activeId} projects={projects} client:load />
+      </div>
+      <div>
+        <p class="italic">Open to freelance and full-time opportunities.</p>
+      </div>
+    </div>
+  </div>
+</div>

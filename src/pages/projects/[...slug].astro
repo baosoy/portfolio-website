@@ -1,0 +1,70 @@
+---
+import { getCollection } from "astro:content";
+import BaseHead from "../../components/BaseHead.astro";
+import Sidebar from "../../components/Sidebar.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+
+export async function getStaticPaths() {
+  const projects = await getCollection("projects");
+  return projects.map((project) => ({
+    params: { slug: project.slug },
+    props: project,
+  }));
+}
+
+const projects = await getCollection("projects");
+const project = Astro.props;
+const { Content } = await project.render();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <main class="flex">
+      <Sidebar
+        activeId={project.id}
+        backgroundColor={project.data.backgroundColor}
+        projects={projects}
+      />
+      <div class="flex-1 px-8 py-8">
+        <div
+          class="flex justify-between max-w-prose xl:max-w-[40vw] mx-auto items-center mb-4"
+        >
+          <div class="flex gap-2 items-center">
+            <h1>{project.data.title}</h1>
+            <span class="opacity-75">—</span>
+            <span class="italic opacity-75">{project.data.source}</span>
+          </div>
+          <a
+            style={{
+              backgroundColor: project.data.backgroundColor,
+            }}
+            class="text-sm px-3 py-2 bg-yellow-light rounded-full leading-none"
+            href={project.data.url}
+            target="_blank">View website</a
+          >
+        </div>
+        <div class="prose mx-auto xl:max-w-[40vw]">
+          <p>{project.data.description}</p>
+          {
+            project.data.heroVideo ? (
+              <video
+                class="mb-8"
+                src={project.data.heroVideo}
+                autoplay
+                muted
+                loop
+              />
+            ) : (
+              <img src={project.data.heroImage} alt={project.data.title} />
+            )
+          }
+          <Content />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -2,8 +2,7 @@
 title: "Pivot"
 source: "Companion"
 url: "https://pivot.how"
-order: 4
-pubDate: "2024-02-11"
+pubDate: "2023-11-01"
 description: "Pair Up was a platform to find and chat with other creatives to get a second opinion or share passions. It was built during downtime between client work as an internal project."
 heroImage: "../../assets/projects/pivot/screenshot_1.png"
 heroVideo: "XUAaCGa02TF0001DBh4lrh5c02Vndb01HeuTZFkJOesZ3hX8"

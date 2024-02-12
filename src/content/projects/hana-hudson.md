@@ -2,8 +2,7 @@
 title: "Hana Hudson"
 source: "Freelance"
 url: "https://hana-hudson.com"
-order: 10
-pubDate: "2024-02-11"
+pubDate: "2023-12-11"
 description: "Hana Hudson is a biodesigner, researching textile and material lifecycles. Wanting to build an online presence, she approached me to build a portfolio website to capture the various elements of her practise into a single website."
 heroImage: "../../assets/projects/hana-hudson/screenshot_1.png"
 heroVideo: "kSIocdAjdFyuylcxhFDzBv602dhcNg7eiftkhNX01Tmsw"

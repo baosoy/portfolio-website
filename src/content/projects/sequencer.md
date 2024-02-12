@@ -1,7 +1,6 @@
 ---
 title: "Sequencer"
 source: "Freelance"
-order: 0
 pubDate: "2024-02-11"
 url: "https://sequencer.kerimhudson.com"
 description: "Sequencer is a conceptual project exploring the idea of connecting the real-living world with the mechanics of a game. Utilising an air quality monitor, the game mechanics become more and more difficult, the worse the air quality is."

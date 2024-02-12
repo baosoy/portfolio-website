@@ -24,7 +24,6 @@ const projects = defineCollection({
       heroImage: image(),
       heroVideo: z.string().optional(),
       description: z.string().optional(),
-      order: z.number().optional().default(0),
       backgroundColor: z.string().optional(),
     }),
 });

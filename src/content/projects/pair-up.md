@@ -2,8 +2,7 @@
 title: "Pair Up"
 source: "Companion"
 url: "https://pair-up.org"
-order: 3
-pubDate: "2024-02-11"
+pubDate: "2023-11-01"
 description: "Pair Up was a platform to find and chat with other creatives to get a second opinion or share passions. It was built during downtime between client work as an internal project. It was built as a somewhat async messaging platform, with the intention of allowing for slower, more focused discussion."
 heroImage: "../../assets/projects/pair-up/screenshot_1.png"
 heroVideo: "3Zi3ZIfBZre6wqfnXTZnMSGdDtuU3v00NgpIMGtmfYGs"

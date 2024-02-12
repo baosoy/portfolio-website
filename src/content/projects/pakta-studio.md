@@ -2,8 +2,7 @@
 title: "Pakta Studio"
 source: "Co-founder"
 url: "https://paktastudio.com"
-order: 8
-pubDate: "2024-02-11"
+pubDate: "2019-02-11"
 description: "Pakta Studio was a multi-disciplinary design studio, primarily focused on ethically and sustainably producing bags, backpacks, and accessories. As the studio drew to a close, we wanted a website to showcase the work we had done, as well as reflect us both individually. We opted to create a multi-lingual website to showcase the projects, without the need to switch between languages."
 heroImage: "../../assets/projects/pakta-studio/screenshot_1.png"
 heroVideo: "Gr941ow2urhmG00XgGUI00OwFpnCWSqlsKY3g2FeVmz7c"

@@ -2,8 +2,7 @@
 title: "Decomposition Library"
 source: "Freelance"
 url: "https://library.notgroundbreaking.com/"
-order: 2
-pubDate: "2024-02-11"
+pubDate: "2023-12-11"
 description: "The Decomposition Library is a collection of textile decomposition experiments, a part of Hana Hudson's biodesign practise. The website was built to pose as a place for other designers and those interested in materials to be able to explore the impact of decomposition on textiles and the material lifecycle."
 heroImage: "../../assets/projects/decomposition-library/screenshot_1.png"
 heroVideo: "2m7GOZ1gomNQBD800mdofFX6kNCv02L8sUbtDdTLTQLSI"

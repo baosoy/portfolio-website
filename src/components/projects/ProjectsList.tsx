@@ -6,7 +6,7 @@ interface Props {
 }
 
 const ProjectsList = ({ projects, activeId }: Props) => {
-  projects.sort((a, b) => (a.data.order < b.data.order ? -1 : 1));
+  projects.sort((a, b) => (a.data.pubDate > b.data.pubDate ? -1 : 1));
 
   return (
     <div>
